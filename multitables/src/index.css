@@ -1,0 +1,22 @@
+.container{
+  width: 50%;
+}
+.table{
+  border:1px solid #000
+}
+.table>:not(caption)>*>*{
+  padding: 0.2rem 0.2rem;
+}
+th{
+  width: 25%;
+}
+th:first-child{
+  width: 15%;
+}
+th:last-child{
+  text-align: center;
+}
+
+
+
+
